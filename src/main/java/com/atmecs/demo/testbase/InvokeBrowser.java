@@ -34,7 +34,7 @@ public class InvokeBrowser {
 	public void invokeBrowser() throws IOException {
 
 		Url = read.readPropertiesFile("url", ConstantPaths.CONFIG_FILE);
-// String base = read.readPropertiesFile("browser", ConstantPaths.CONFIG_FILE);
+ String base = read.readPropertiesFile("browser", ConstantPaths.CONFIG_FILE);
 		//base=System.getenv(browsername);
 
 		if (base.equalsIgnoreCase("chrome")) {

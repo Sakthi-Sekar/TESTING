@@ -10,7 +10,7 @@ import com.atmecs.demo.helpers.ValidateTestResult;
 import com.atmecs.demo.testbase.BaseClass;
 import com.atmecs.demo.testbase.InvokeBrowser;
 
-public class Homepage extends BaseClass {
+public class Homepage extends InvokeBrowser {
 	String Xpath, exptd;
 
 	WebElement Css, inputElement;
